@@ -8,6 +8,8 @@ interface PlotDetailModalProps {
   plot: Plot | null;
   isOpen: boolean;
   onClose: () => void;
+  isAdminLoggedIn?: boolean;
+  onUpdatePlotStatus?: (surveyNo: string, number: number, status: PlotStatus) => Promise<void>;
 }
 
 const statusConfig: Record<PlotStatus, { label: string; className: string; bg: string }> = {
@@ -39,12 +41,6 @@ const facingColors: Record<string, string> = {
   'South-West': 'text-pink-400',
 };
 
-function formatIndianPrice(amount: number): string {
-  if (amount >= 10000000) return `₹${(amount / 10000000).toFixed(2)} Cr`;
-  if (amount >= 100000) return `₹${(amount / 100000).toFixed(2)} L`;
-  return `₹${amount.toLocaleString('en-IN')}`;
-}
-
 const CompassIcon = ({ facing }: { facing: string }) => {
   const directionAngles: Record<string, number> = {
     North: 0,
@@ -75,7 +71,16 @@ const CompassIcon = ({ facing }: { facing: string }) => {
   );
 };
 
-const PlotDetailModal: React.FC<PlotDetailModalProps> = ({ plot, isOpen, onClose }) => {
+const PlotDetailModal: React.FC<PlotDetailModalProps> = ({
+  plot,
+  isOpen,
+  onClose,
+  isAdminLoggedIn,
+  onUpdatePlotStatus,
+}) => {
+  const [updating, setUpdating] = React.useState(false);
+  const [updateError, setUpdateError] = React.useState<string | null>(null);
+
   // Close on Escape
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -94,7 +99,20 @@ const PlotDetailModal: React.FC<PlotDetailModalProps> = ({ plot, isOpen, onClose
   if (!plot) return null;
 
   const status = statusConfig[plot.status];
-  const { dimensions, facing, number, corner, features, price, totalPrice } = plot;
+  const { dimensions, facing, number, corner, features } = plot;
+
+  const handleStatusChange = async (newStatus: PlotStatus) => {
+    if (!plot.surveyNo || !onUpdatePlotStatus || updating || plot.status === newStatus) return;
+    setUpdating(true);
+    setUpdateError(null);
+    try {
+      await onUpdatePlotStatus(plot.surveyNo, plot.number, newStatus);
+    } catch (err: any) {
+      setUpdateError(err.message || 'Failed to update status');
+    } finally {
+      setUpdating(false);
+    }
+  };
 
 
   return (
@@ -162,6 +180,56 @@ const PlotDetailModal: React.FC<PlotDetailModalProps> = ({ plot, isOpen, onClose
 
         {/* Scrollable body */}
         <div className="flex-1 overflow-y-auto">
+          {/* Admin Plot Status Control Bar */}
+          {isAdminLoggedIn && (
+            <div className="mx-4 mt-4 p-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-amber-400 font-bold text-xs flex items-center gap-1.5 uppercase tracking-wider">
+                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+                  Admin Controls: Update Plot Status
+                </span>
+                {updating && (
+                  <span className="text-gray-400 text-xs flex items-center gap-1">
+                    <div className="w-3 h-3 border-2 border-amber-400 border-t-transparent rounded-full animate-spin" />
+                    Updating...
+                  </span>
+                )}
+              </div>
+
+              {updateError && (
+                <div className="mb-2 text-red-400 text-xs bg-red-500/10 p-2 rounded-lg border border-red-500/20">
+                  {updateError}
+                </div>
+              )}
+
+              <div className="grid grid-cols-3 gap-2">
+                {(['available', 'booked', 'sold'] as PlotStatus[]).map((st) => {
+                  const isCurrent = plot.status === st;
+                  const colors = {
+                    available: 'border-green-500 text-green-400 bg-green-500/20 hover:bg-green-500/30',
+                    booked: 'border-orange-500 text-orange-400 bg-orange-500/20 hover:bg-orange-500/30',
+                    sold: 'border-red-500 text-red-400 bg-red-500/20 hover:bg-red-500/30',
+                  }[st];
+
+                  return (
+                    <button
+                      key={st}
+                      disabled={updating}
+                      onClick={() => handleStatusChange(st)}
+                      className={`px-3 py-2 rounded-xl text-xs font-bold capitalize transition-all border ${
+                        isCurrent
+                          ? `${colors} ring-2 ring-amber-400 shadow-lg`
+                          : 'border-white/10 bg-white/5 text-gray-400 hover:text-white hover:bg-white/10'
+                      }`}
+                    >
+                      {st === 'available' ? '🟢 Available' : st === 'booked' ? '🟠 Booked' : '🔴 Sold'}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {/* 3D Viewer */}
           <div className="h-56 lg:h-64 mx-4 mt-4 rounded-2xl overflow-hidden border border-white/10 bg-gray-800">
             <Suspense
@@ -263,28 +331,6 @@ const PlotDetailModal: React.FC<PlotDetailModalProps> = ({ plot, isOpen, onClose
                 </div>
               ))}
             </div>
-
-            {/* Pricing */}
-            {(price || totalPrice) && (
-              <div className="bg-gradient-to-br from-amber-500/10 to-amber-700/5 border border-amber-500/20 rounded-xl p-4">
-                <h3 className="text-amber-400 font-semibold text-sm mb-3">Pricing</h3>
-                {price && (
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-gray-400 text-sm">Rate per sq ft</span>
-                    <span className="text-white font-semibold">₹{price.toLocaleString('en-IN')}/sq ft</span>
-                  </div>
-                )}
-                {totalPrice && (
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-300 font-medium text-sm">Total Price</span>
-                    <span className="text-amber-400 font-black text-xl">
-                      {formatIndianPrice(totalPrice)}
-                    </span>
-                  </div>
-                )}
-                <p className="text-gray-500 text-[10px] mt-2">* Price may vary. Contact us for final quote.</p>
-              </div>
-            )}
 
             {/* Features */}
             {features && features.length > 0 && (

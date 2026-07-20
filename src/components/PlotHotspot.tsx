@@ -1,6 +1,5 @@
 import React from 'react';
-import type { Plot } from '../types';
-import type { PlotStatus } from '../types';
+import type { Plot, PlotStatus } from '../types';
 
 interface PlotHotspotProps {
   plot: Plot;
@@ -41,7 +40,7 @@ const PlotHotspot: React.FC<PlotHotspotProps> = ({
   isHovered,
 }) => {
   const { hotspot, status, number, dimensions } = plot;
-  const config = statusConfig[status];
+  const config = statusConfig[status || 'available'];
 
   // Compute pixel positions
   const left = (hotspot.x / 100) * containerWidth;
@@ -49,8 +48,23 @@ const PlotHotspot: React.FC<PlotHotspotProps> = ({
   const width = (hotspot.width / 100) * containerWidth;
   const height = (hotspot.height / 100) * containerHeight;
 
-  const formatPrice = (price?: number) =>
-    price ? `₹${(price / 100000).toFixed(1)}L` : 'On Request';
+  const statusColors = {
+    available: {
+      bg: isHovered ? 'rgba(34, 197, 94, 0.85)' : 'rgba(34, 197, 94, 0.45)',
+      border: isHovered ? '#22c55e' : 'rgba(34, 197, 94, 0.7)',
+      glow: '0 0 10px rgba(34, 197, 94, 0.6)',
+    },
+    booked: {
+      bg: isHovered ? 'rgba(249, 115, 22, 0.85)' : 'rgba(249, 115, 22, 0.50)',
+      border: isHovered ? '#f97316' : 'rgba(249, 115, 22, 0.7)',
+      glow: '0 0 10px rgba(249, 115, 22, 0.6)',
+    },
+    sold: {
+      bg: isHovered ? 'rgba(239, 68, 68, 0.85)' : 'rgba(239, 68, 68, 0.50)',
+      border: isHovered ? '#ef4444' : 'rgba(239, 68, 68, 0.7)',
+      glow: '0 0 10px rgba(239, 68, 68, 0.6)',
+    },
+  }[status || 'available'];
 
   return (
     <div
@@ -73,9 +87,9 @@ const PlotHotspot: React.FC<PlotHotspotProps> = ({
           isHovered ? 'scale-110 shadow-lg z-20' : ''
         }`}
         style={{
-          backgroundColor: isHovered ? 'rgba(34, 197, 94, 0.75)' : 'rgba(34, 197, 94, 0.4)',
-          borderColor: isHovered ? '#22c55e' : 'rgba(34, 197, 94, 0.6)',
-          boxShadow: isHovered ? '0 0 10px rgba(34, 197, 94, 0.6)' : 'none',
+          backgroundColor: statusColors.bg,
+          borderColor: statusColors.border,
+          boxShadow: isHovered ? statusColors.glow : 'none',
         }}
       />
 
@@ -100,7 +114,7 @@ const PlotHotspot: React.FC<PlotHotspotProps> = ({
             whiteSpace: 'nowrap',
           }}
         >
-          <div className="bg-gray-900/95 backdrop-blur text-white rounded-xl px-3 py-2.5 shadow-2xl border border-white/10 text-xs space-y-1">
+          <div className="bg-gray-900/95 backdrop-blur text-white rounded-xl px-3 py-2 shadow-2xl border border-white/10 text-xs space-y-1">
             <div className="flex items-center gap-2 font-bold text-sm">
               <span>Plot {number}</span>
               {plot.block && (
@@ -117,30 +131,22 @@ const PlotHotspot: React.FC<PlotHotspotProps> = ({
               <span>·</span>
               <span>{dimensions.area} sq ft</span>
             </div>
-            <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-1.5">
-                <span
-                  className={`w-2 h-2 rounded-full ${config.dot} inline-block`}
-                />
-                <span
-                  className={
-                    status === 'available'
-                      ? 'text-green-400'
-                      : status === 'booked'
-                      ? 'text-orange-400'
-                      : 'text-red-400'
-                  }
-                >
-                  {config.label}
-                </span>
-              </div>
-              {plot.totalPrice && (
-                <span className="text-amber-400 font-semibold">
-                  {formatPrice(plot.totalPrice)}
-                </span>
-              )}
+            <div className="flex items-center gap-1.5 pt-0.5">
+              <span
+                className={`w-2 h-2 rounded-full ${config.dot} inline-block`}
+              />
+              <span
+                className={
+                  status === 'available'
+                    ? 'text-green-400'
+                    : status === 'booked'
+                    ? 'text-orange-400'
+                    : 'text-red-400'
+                }
+              >
+                {config.label}
+              </span>
             </div>
-            <div className="text-gray-500 text-[10px] text-center pt-0.5">Click to view details</div>
           </div>
           {/* Arrow */}
           <div

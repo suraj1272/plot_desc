@@ -1,21 +1,31 @@
 import React, { useRef, useState, useEffect, useMemo } from 'react';
-import type { Plot } from '../types';
+import type { Plot, PlotStatus } from '../types';
 import PlotHotspot from './PlotHotspot';
-import plotsData from '../data/plots.json';
-
-// Cast imported JSON to Plot[]
-const allPlots = plotsData as unknown as Plot[];
+import type { AdminUser } from '../services/api';
 
 interface LayoutMapProps {
+  plots: Plot[];
   onSelectPlot: (plot: Plot) => void;
   onHoverPlot: (plot: Plot | null) => void;
   hoveredPlot: Plot | null;
+  adminUser: AdminUser | null;
+  onOpenAdminModal: () => void;
+  onLogoutAdmin: () => void;
 }
 
-const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hoveredPlot }) => {
+const LayoutMap: React.FC<LayoutMapProps> = ({
+  plots,
+  onSelectPlot,
+  onHoverPlot,
+  hoveredPlot,
+  adminUser,
+  onOpenAdminModal,
+  onLogoutAdmin,
+}) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
   const [filterSurvey, setFilterSurvey] = useState<'all' | '98' | '101'>('all');
+  const [filterStatus, setFilterStatus] = useState<PlotStatus | 'all'>('all');
   const [imgLoaded, setImgLoaded] = useState(false);
   const [searchPlot, setSearchPlot] = useState('');
 
@@ -32,36 +42,81 @@ const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hovere
     return () => obs.disconnect();
   }, []);
 
-  const counts = useMemo(() => ({
-    all: allPlots.length,
-    sy98: allPlots.filter((p) => p.surveyNo === '98').length,
-    sy101: allPlots.filter((p) => p.surveyNo === '101').length,
-  }), []);
+  const counts = useMemo(() => {
+    return {
+      all: plots.length,
+      available: plots.filter((p) => p.status === 'available').length,
+      booked: plots.filter((p) => p.status === 'booked').length,
+      sold: plots.filter((p) => p.status === 'sold').length,
+      sy98: plots.filter((p) => p.surveyNo === '98').length,
+      sy101: plots.filter((p) => p.surveyNo === '101').length,
+    };
+  }, [plots]);
 
   const filteredPlots = useMemo(() => {
-    let plots = allPlots;
-    if (filterSurvey !== 'all') plots = plots.filter((p) => p.surveyNo === filterSurvey);
+    let result = plots;
+    if (filterSurvey !== 'all') {
+      result = result.filter((p) => p.surveyNo === filterSurvey);
+    }
+    if (filterStatus !== 'all') {
+      result = result.filter((p) => p.status === filterStatus);
+    }
     if (searchPlot.trim()) {
       const n = parseInt(searchPlot.trim());
-      if (!isNaN(n)) plots = plots.filter((p) => p.number === n);
+      if (!isNaN(n)) {
+        result = result.filter((p) => p.number === n);
+      }
     }
-    return plots;
-  }, [filterSurvey, searchPlot]);
+    return result;
+  }, [plots, filterSurvey, filterStatus, searchPlot]);
 
   return (
-    <section id="layout" className="py-12 bg-gray-950">
+    <section id="layout" className="py-8 bg-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        {/* Top Navbar / Header with Admin Login */}
+        <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/10">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 flex items-center justify-center shadow-lg shadow-amber-500/20">
+              <span className="text-gray-950 font-black text-sm">SM</span>
+            </div>
+            <div>
+              <h1 className="text-white font-bold text-base leading-none">Shreemant Jagadevrao Deshmukh Layout</h1>
+              <span className="text-amber-400 text-xs font-semibold">Survey No. 98 & 101 · Nalatavad</span>
+            </div>
+          </div>
+
+          <div>
+            {adminUser ? (
+              <div className="flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 rounded-xl px-3 py-1.5">
+                <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+                <span className="text-xs font-semibold text-amber-300">
+                  Admin: {adminUser.username}
+                </span>
+                <button
+                  onClick={onLogoutAdmin}
+                  className="ml-2 text-[11px] text-gray-400 hover:text-red-400 font-bold underline"
+                >
+                  Logout
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={onOpenAdminModal}
+                className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-amber-400 font-bold text-xs px-3.5 py-2 rounded-xl border border-amber-500/30 transition-all shadow-sm"
+              >
+                <span>🔑 Admin Login</span>
+              </button>
+            )}
+          </div>
+        </div>
+
         {/* Section header */}
-        <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-4xl font-black text-white mb-2 leading-tight">
-            Shreemant Jagadevrao Deshmukh Layout
+        <div className="text-center mb-6">
+          <h2 className="text-2xl md:text-3xl font-black text-white mb-1 leading-tight">
+            Master Plan & Plot Status Tracker
           </h2>
-          <p className="text-amber-400 text-sm font-semibold tracking-wider uppercase mb-3">
-            Survey No. 98 & 101, Nalatavad
-          </p>
-          <div className="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 mx-auto rounded-full mb-4" />
           <p className="text-gray-400 max-w-2xl mx-auto text-xs sm:text-sm">
-            Explore the master plan. Tap any plot to see full details and 3D view with dimensions from the official DTCP layout records.
+            Tap any plot to view details, 3D model, and dimensions. {adminUser ? 'Log in as Admin to update plot availability status.' : 'Admin users can log in above to update plot statuses.'}
           </p>
         </div>
 
@@ -69,9 +124,9 @@ const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hovere
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
           {[
             { label: 'Total Plots', value: counts.all, color: 'text-white' },
-            { label: 'Survey No. 98', value: counts.sy98, color: 'text-amber-400' },
-            { label: 'Survey No. 101', value: counts.sy101, color: 'text-amber-400' },
-            { label: 'Available Plots', value: counts.all, color: 'text-green-400' },
+            { label: 'Available Plots', value: counts.available, color: 'text-green-400' },
+            { label: 'Booked Plots', value: counts.booked, color: 'text-orange-400' },
+            { label: 'Sold Plots', value: counts.sold, color: 'text-red-400' },
           ].map((s) => (
             <div key={s.label} className="bg-white/5 border border-white/10 rounded-xl p-3 text-center">
               <div className={`text-xl md:text-2xl font-black ${s.color}`}>{s.value}</div>
@@ -82,21 +137,48 @@ const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hovere
 
         {/* Filter + Search bar */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-5 bg-white/5 border border-white/10 rounded-xl p-3">
-          {/* Survey filter */}
-          <div className="flex gap-1 w-full md:w-auto">
-            {([['all', 'All Surveys'], ['98', 'SY No. 98'], ['101', 'SY No. 101']] as const).map(([val, label]) => (
-              <button
-                key={val}
-                onClick={() => setFilterSurvey(val)}
-                className={`flex-1 md:flex-none px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
-                  filterSurvey === val
-                    ? 'bg-amber-500 text-gray-900'
-                    : 'text-gray-400 hover:text-gray-200 hover:bg-white/5'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
+          {/* Survey & Status filters */}
+          <div className="flex flex-wrap items-center gap-2 w-full md:w-auto">
+            {/* Survey filter */}
+            <div className="flex gap-1">
+              {([['all', 'All Surveys'], ['98', 'SY 98'], ['101', 'SY 101']] as const).map(([val, label]) => (
+                <button
+                  key={val}
+                  onClick={() => setFilterSurvey(val)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                    filterSurvey === val
+                      ? 'bg-amber-500 text-gray-900 font-bold'
+                      : 'text-gray-400 hover:text-gray-200 hover:bg-white/5'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+
+            <div className="w-px h-5 bg-white/10 hidden sm:block" />
+
+            {/* Status filter */}
+            <div className="flex gap-1">
+              {([
+                ['all', 'All Status'],
+                ['available', '🟢 Available'],
+                ['booked', '🟠 Booked'],
+                ['sold', '🔴 Sold']
+              ] as const).map(([val, label]) => (
+                <button
+                  key={val}
+                  onClick={() => setFilterStatus(val as any)}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                    filterStatus === val
+                      ? 'bg-white/20 text-white ring-1 ring-white/30 font-bold'
+                      : 'text-gray-400 hover:text-gray-200 hover:bg-white/5'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Search, Download & Info */}
@@ -118,7 +200,7 @@ const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hovere
             <a
               href="/layout_original.pdf"
               download="Shreemant_Jagadevrao_Deshmukh_Layout_Master_Plan.pdf"
-              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-gray-900 text-xs font-bold px-4 py-2.5 rounded-lg transition-all shadow-md shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] w-full sm:w-auto"
+              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-gray-900 text-xs font-bold px-4 py-2 rounded-lg transition-all shadow-md shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] w-full sm:w-auto"
             >
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -194,32 +276,25 @@ const LayoutMap: React.FC<LayoutMapProps> = ({ onSelectPlot, onHoverPlot, hovere
           </div>
 
           {/* Bottom bar */}
-          <div className="bg-gray-900/90 backdrop-blur border-t border-white/10 px-4 py-2.5 flex items-center justify-between text-[11px] text-gray-500 min-w-[950px] lg:min-w-0">
-            <div className="flex items-center gap-1.5 text-green-400 font-semibold">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              <span>All Plots Available</span>
+          <div className="bg-gray-900/90 backdrop-blur border-t border-white/10 px-4 py-2.5 flex items-center justify-between text-[11px] text-gray-400 min-w-[950px] lg:min-w-0">
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-green-400" />
+                <span>Available ({counts.available})</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-orange-400" />
+                <span>Booked ({counts.booked})</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-red-400" />
+                <span>Sold ({counts.sold})</span>
+              </div>
             </div>
             <span>
               Shreemant Jagadevrao Deshmukh Layout · Nalatavad
             </span>
           </div>
-        </div>
-
-        {/* Help cards */}
-        <div className="grid md:grid-cols-3 gap-4 mt-6">
-          {[
-            { icon: '👆', title: 'Tap to Select', desc: 'Tap any plot marker to view full details, pricing, and the interactive 3D layout model.' },
-            { icon: '🔍', title: 'Filter & Search', desc: 'Easily filter by Survey No. 98 or 101, or search directly for a plot number.' },
-            { icon: '📱', title: 'Mobile Friendly', desc: 'Easily swipe left/right to pan and view the complete layout sheet on smaller screens.' },
-          ].map((card) => (
-            <div key={card.title} className="bg-white/5 border border-white/10 rounded-xl p-4 flex gap-3 items-start">
-              <span className="text-xl">{card.icon}</span>
-              <div>
-                <div className="font-semibold text-white text-sm mb-0.5">{card.title}</div>
-                <div className="text-gray-400 text-xs leading-relaxed">{card.desc}</div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>
