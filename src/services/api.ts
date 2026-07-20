@@ -15,7 +15,7 @@ export interface LoginResponse {
 }
 
 /**
- * Fetch all plots from backend API with 1.5s timeout and fallback to static plots.json
+ * Fetch all plots from backend API with fallback to static plots.json
  */
 export async function fetchPlots(surveyNo?: string): Promise<Plot[]> {
   const fallback = localPlotsData as unknown as Plot[];
@@ -31,24 +31,36 @@ export async function fetchPlots(surveyNo?: string): Promise<Plot[]> {
     if (surveyNo && surveyNo !== 'all') {
       url += `?surveyNo=${surveyNo}`;
     }
-    
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500); // 1.5s fast timeout
 
-    const response = await fetch(url, { signal: controller.signal });
+    const controller = new AbortController();
+    // Give Vercel serverless cold-start enough time (8 seconds)
+    const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'Content-Type': 'application/json' }
+    });
     clearTimeout(timeoutId);
 
     if (!response.ok) {
-      throw new Error(`Server returned status ${response.status}`);
+      console.warn(`[API] fetchPlots failed with status ${response.status}, using static fallback.`);
+      return filterFallback(fallback);
     }
+
     const result = await response.json();
     if (result.success && Array.isArray(result.data) && result.data.length > 0) {
       return result.data as Plot[];
     }
-  } catch (error) {
-    // Graceful fallback to instant static data
+
+    console.warn('[API] fetchPlots returned empty/invalid data, using static fallback.');
+  } catch (error: any) {
+    if (error.name === 'AbortError') {
+      console.warn('[API] fetchPlots timed out, using static fallback.');
+    } else {
+      console.warn('[API] fetchPlots error:', error.message);
+    }
   }
-  
+
   return filterFallback(fallback);
 }
 

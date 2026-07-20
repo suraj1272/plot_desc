@@ -4,8 +4,6 @@ import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import plotRoutes from './routes/plotRoutes.js';
 import authRoutes from './routes/authRoutes.js';
-import { seedInitialPlotsIfEmpty } from './services/plotService.js';
-import { createDefaultAdminIfEmpty } from './services/authService.js';
 
 dotenv.config();
 
@@ -14,24 +12,27 @@ const app = express();
 // Enable CORS for frontend communication
 app.use(cors({
   origin: '*',
-  credentials: true
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: false
 }));
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // Middleware to ensure DB connection on request (essential for Vercel serverless functions)
+// NOTE: Seeding is NOT done here — it's done separately via the seed script.
+// Doing it per-request caused timeout/cancellation issues in production.
 app.use(async (req, res, next) => {
   try {
     await connectDB();
-    // Auto-seed on initial database connection
-    await createDefaultAdminIfEmpty().catch(() => {});
-    await seedInitialPlotsIfEmpty().catch(() => {});
     next();
   } catch (err) {
     console.error('Database middleware connection error:', err);
-    // Proceed so routes can return graceful errors if DB is unreachable
-    next();
+    return res.status(503).json({
+      success: false,
+      message: 'Database connection unavailable. Please try again shortly.'
+    });
   }
 });
 
