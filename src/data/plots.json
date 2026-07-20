@@ -131,7 +131,7 @@
     "dimensions": {
       "length": 36.3,
       "width": 29.5,
-      "area": 1070.0,
+      "area": 1070,
       "areaMetric": 99.41,
       "dimensionLabel": "Irregular"
     },
@@ -160,7 +160,7 @@
     "dimensions": {
       "length": 36.8,
       "width": 29.5,
-      "area": 1086.0,
+      "area": 1086,
       "areaMetric": 100.89,
       "dimensionLabel": "Irregular"
     },
@@ -187,7 +187,7 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 37.0,
+      "length": 37,
       "width": 29.5,
       "area": 1092.6,
       "areaMetric": 101.51,
@@ -248,7 +248,7 @@
     "dimensions": {
       "length": 38.4,
       "width": 29.5,
-      "area": 1132.0,
+      "area": 1132,
       "areaMetric": 105.17,
       "dimensionLabel": "Irregular"
     },
@@ -392,7 +392,7 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 41.0,
+      "length": 41,
       "width": 29.5,
       "area": 1209.8,
       "areaMetric": 112.39,
@@ -482,7 +482,7 @@
     "dimensions": {
       "length": 42.9,
       "width": 29.5,
-      "area": 1267.0,
+      "area": 1267,
       "areaMetric": 117.71,
       "dimensionLabel": "Irregular"
     },
@@ -509,10 +509,10 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 43.0,
+      "length": 43,
       "width": 29.5,
       "area": 1270.1,
-      "areaMetric": 118.0,
+      "areaMetric": 118,
       "dimensionLabel": "Irregular"
     },
     "facing": "South",
@@ -541,7 +541,7 @@
       "length": 42.7,
       "width": 29.5,
       "area": 1259.4,
-      "areaMetric": 117.0,
+      "areaMetric": 117,
       "dimensionLabel": "Irregular"
     },
     "facing": "East",
@@ -775,7 +775,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -803,7 +803,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -832,7 +832,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -860,7 +860,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -888,7 +888,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -916,7 +916,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -944,7 +944,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -972,7 +972,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -1000,7 +1000,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1029,7 +1029,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1057,7 +1057,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -1085,7 +1085,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -1113,7 +1113,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1142,7 +1142,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1170,7 +1170,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -1198,7 +1198,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -1227,7 +1227,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1255,7 +1255,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1283,7 +1283,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -1311,7 +1311,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -1339,7 +1339,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1367,7 +1367,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1483,7 +1483,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1512,7 +1512,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -1540,7 +1540,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -1568,7 +1568,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1596,7 +1596,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1625,7 +1625,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -1653,7 +1653,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -1681,7 +1681,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1709,7 +1709,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1737,7 +1737,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -1765,7 +1765,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -1793,7 +1793,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1822,7 +1822,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1850,7 +1850,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -1879,7 +1879,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -1907,7 +1907,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -1935,7 +1935,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -1963,7 +1963,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -1991,7 +1991,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -2020,7 +2020,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2048,7 +2048,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2104,7 +2104,7 @@
     "dimensions": {
       "length": 90.9,
       "width": 29.5,
-      "area": 2684.0,
+      "area": 2684,
       "areaMetric": 249.35,
       "dimensionLabel": "Irregular"
     },
@@ -2134,7 +2134,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2162,7 +2162,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2190,7 +2190,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -2219,7 +2219,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -2248,7 +2248,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2276,7 +2276,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2304,7 +2304,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -2332,7 +2332,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -2360,7 +2360,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2388,7 +2388,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2417,7 +2417,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -2445,7 +2445,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -2473,7 +2473,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2501,7 +2501,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2529,7 +2529,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -2557,7 +2557,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -2585,7 +2585,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2614,7 +2614,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2642,7 +2642,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -2728,7 +2728,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2756,7 +2756,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -2784,7 +2784,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -2813,7 +2813,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2841,7 +2841,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2869,7 +2869,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -2897,7 +2897,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -2925,7 +2925,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -2953,7 +2953,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -2982,7 +2982,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -3011,7 +3011,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -3039,7 +3039,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3067,7 +3067,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3095,7 +3095,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -3123,7 +3123,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -3151,7 +3151,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3179,7 +3179,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3266,7 +3266,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3294,7 +3294,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3322,7 +3322,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -3351,7 +3351,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -3379,7 +3379,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3408,7 +3408,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3436,7 +3436,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -3464,7 +3464,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -3492,7 +3492,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3520,7 +3520,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3548,7 +3548,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -3576,7 +3576,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -3605,7 +3605,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3624,8 +3624,8 @@
     "block": "SY98",
     "corner": false,
     "hotspot": {
-      "x": 45.127,
-      "y": 21.546,
+      "x": 44.85,
+      "y": 22,
       "width": 2.6,
       "height": 2.8
     },
@@ -3633,7 +3633,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3720,7 +3720,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3748,7 +3748,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3776,7 +3776,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -3805,7 +3805,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -3833,7 +3833,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3861,7 +3861,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -3889,7 +3889,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -3917,7 +3917,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -3945,7 +3945,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -3973,7 +3973,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4002,7 +4002,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -4030,7 +4030,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -4058,7 +4058,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4145,7 +4145,7 @@
       "length": 49.2,
       "width": 39.4,
       "area": 1937.5,
-      "areaMetric": 180.0,
+      "areaMetric": 180,
       "dimensionLabel": "12m x 15m"
     },
     "facing": "South",
@@ -4174,7 +4174,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4203,7 +4203,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4231,7 +4231,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -4259,7 +4259,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -4287,7 +4287,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4315,7 +4315,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4343,7 +4343,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -4371,7 +4371,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -4400,7 +4400,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4428,7 +4428,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4515,7 +4515,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4543,7 +4543,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4571,7 +4571,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -4600,7 +4600,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -4628,7 +4628,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4656,7 +4656,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -4684,7 +4684,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -4712,7 +4712,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -4740,7 +4740,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -4768,7 +4768,7 @@
       "length": 49.2,
       "width": 39.4,
       "area": 1937.5,
-      "areaMetric": 180.0,
+      "areaMetric": 180,
       "dimensionLabel": "12m x 15m"
     },
     "facing": "West",
@@ -4857,7 +4857,7 @@
       "length": 49.2,
       "width": 39.4,
       "area": 1937.5,
-      "areaMetric": 180.0,
+      "areaMetric": 180,
       "dimensionLabel": "12m x 15m"
     },
     "facing": "East",
@@ -4886,7 +4886,7 @@
       "length": 49.2,
       "width": 39.4,
       "area": 1937.5,
-      "areaMetric": 180.0,
+      "areaMetric": 180,
       "dimensionLabel": "12m x 15m"
     },
     "facing": "West",
@@ -4973,7 +4973,7 @@
       "length": 49.2,
       "width": 39.4,
       "area": 1937.5,
-      "areaMetric": 180.0,
+      "areaMetric": 180,
       "dimensionLabel": "12m x 15m"
     },
     "facing": "East",
@@ -5061,7 +5061,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -5089,7 +5089,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -5117,7 +5117,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -5145,7 +5145,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -5173,7 +5173,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -5202,7 +5202,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -5230,7 +5230,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -5258,7 +5258,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -5314,7 +5314,7 @@
     "dimensions": {
       "length": 45.4,
       "width": 29.5,
-      "area": 1342.0,
+      "area": 1342,
       "areaMetric": 124.68,
       "dimensionLabel": "Irregular"
     },
@@ -5344,7 +5344,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -5372,7 +5372,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -5401,7 +5401,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -5429,7 +5429,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -5457,7 +5457,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -5485,7 +5485,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -5513,7 +5513,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -5541,7 +5541,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -5600,7 +5600,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -5628,7 +5628,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -5656,7 +5656,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -5684,7 +5684,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -5712,7 +5712,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -5740,7 +5740,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -5768,7 +5768,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -6002,7 +6002,7 @@
       "length": 54.3,
       "width": 29.5,
       "area": 1603.8,
-      "areaMetric": 149.0,
+      "areaMetric": 149,
       "dimensionLabel": "Irregular"
     },
     "facing": "East",
@@ -6030,7 +6030,7 @@
     "dimensions": {
       "length": 43.2,
       "width": 29.5,
-      "area": 1276.0,
+      "area": 1276,
       "areaMetric": 118.54,
       "dimensionLabel": "Irregular"
     },
@@ -6088,7 +6088,7 @@
     "dimensions": {
       "length": 126.3,
       "width": 29.5,
-      "area": 3730.0,
+      "area": 3730,
       "areaMetric": 346.53,
       "dimensionLabel": "Irregular"
     },
@@ -6321,7 +6321,7 @@
     "dimensions": {
       "length": 78.2,
       "width": 29.5,
-      "area": 2309.0,
+      "area": 2309,
       "areaMetric": 214.51,
       "dimensionLabel": "Irregular"
     },
@@ -6466,7 +6466,7 @@
     "dimensions": {
       "length": 82.7,
       "width": 29.5,
-      "area": 2442.0,
+      "area": 2442,
       "areaMetric": 226.87,
       "dimensionLabel": "Irregular"
     },
@@ -6611,7 +6611,7 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 75.0,
+      "length": 75,
       "width": 29.5,
       "area": 2213.4,
       "areaMetric": 205.63,
@@ -7052,7 +7052,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -7080,7 +7080,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -7109,7 +7109,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7137,7 +7137,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7165,7 +7165,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -7193,7 +7193,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -7222,7 +7222,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7250,7 +7250,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7278,7 +7278,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -7307,7 +7307,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -7335,7 +7335,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7363,7 +7363,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7391,7 +7391,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -7418,8 +7418,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "North-West",
@@ -7447,8 +7447,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "East",
@@ -7477,7 +7477,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7506,7 +7506,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -7534,7 +7534,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -7562,7 +7562,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7591,7 +7591,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7619,7 +7619,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -7647,7 +7647,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -7667,7 +7667,7 @@
     "corner": true,
     "hotspot": {
       "x": 73.249,
-      "y": 36.0,
+      "y": 36,
       "width": 2.6,
       "height": 2.8
     },
@@ -7675,7 +7675,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7704,7 +7704,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7732,7 +7732,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -7760,7 +7760,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -7788,7 +7788,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7816,7 +7816,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7903,7 +7903,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -7931,7 +7931,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -7960,7 +7960,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -7988,7 +7988,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -8016,7 +8016,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8044,7 +8044,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8072,7 +8072,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -8101,7 +8101,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -8129,7 +8129,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8157,7 +8157,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8185,7 +8185,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -8213,7 +8213,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -8240,8 +8240,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "East",
@@ -8269,8 +8269,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "West",
@@ -8300,7 +8300,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -8329,7 +8329,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -8357,7 +8357,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8385,7 +8385,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8413,7 +8413,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -8441,7 +8441,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -8469,7 +8469,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8498,7 +8498,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8526,7 +8526,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -8554,7 +8554,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -8573,7 +8573,7 @@
     "block": "SY101",
     "corner": false,
     "hotspot": {
-      "x": 64.0,
+      "x": 64,
       "y": 68.825,
       "width": 2.6,
       "height": 2.8
@@ -8582,7 +8582,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8610,7 +8610,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8638,7 +8638,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -8725,7 +8725,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8753,7 +8753,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -8781,7 +8781,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -8809,7 +8809,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8837,7 +8837,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8865,7 +8865,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -8894,7 +8894,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -8922,7 +8922,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -8950,7 +8950,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -8978,7 +8978,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -9006,7 +9006,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -9034,7 +9034,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9062,8 +9062,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "West",
@@ -9092,8 +9092,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "North",
@@ -9122,7 +9122,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -9150,7 +9150,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9178,7 +9178,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9206,7 +9206,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -9234,7 +9234,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -9262,7 +9262,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9291,7 +9291,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9319,7 +9319,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -9347,7 +9347,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -9375,7 +9375,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9403,7 +9403,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9432,7 +9432,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -9519,7 +9519,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9547,7 +9547,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -9575,7 +9575,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -9603,7 +9603,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9631,7 +9631,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9659,7 +9659,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -9688,7 +9688,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -9707,23 +9707,25 @@
     "block": "SY101",
     "corner": false,
     "hotspot": {
-      "x": 46.94,
-      "y": 21.024,
+      "x": 65.862,
+      "y": 38.018,
       "width": 2.6,
       "height": 2.8
     },
     "dimensions": {
-      "length": 39.4,
+      "length": 81.3,
       "width": 29.5,
-      "area": 1162.5,
-      "areaMetric": 108.0,
-      "dimensionLabel": "9m x 12m"
+      "area": 2399.9,
+      "areaMetric": 222.96,
+      "dimensionLabel": "Irregular (Odd & Big)"
     },
     "facing": "East",
     "price": 2800,
     "totalPrice": 3255000,
     "status": "available",
     "features": [
+      "Irregular Plot",
+      "Odd & Big Size",
       "DTCP Approved"
     ]
   },
@@ -9744,7 +9746,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -9772,7 +9774,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -9801,7 +9803,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -9829,7 +9831,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9856,8 +9858,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "West",
@@ -9886,8 +9888,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "North-East",
@@ -9916,7 +9918,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -9944,7 +9946,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -9972,7 +9974,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10000,7 +10002,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -10028,7 +10030,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -10056,7 +10058,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10085,7 +10087,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10113,7 +10115,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -10141,7 +10143,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -10170,7 +10172,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10198,7 +10200,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10285,7 +10287,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10313,7 +10315,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10341,7 +10343,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -10369,7 +10371,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -10397,7 +10399,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10425,7 +10427,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10453,7 +10455,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -10482,7 +10484,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -10510,7 +10512,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10539,7 +10541,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10567,7 +10569,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -10594,8 +10596,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "North-West",
@@ -10623,8 +10625,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "East",
@@ -10653,7 +10655,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10682,7 +10684,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -10710,7 +10712,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -10738,7 +10740,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10766,7 +10768,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10794,7 +10796,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -10822,7 +10824,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -10850,7 +10852,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -10879,7 +10881,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -10908,7 +10910,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -10936,7 +10938,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -10964,7 +10966,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11050,7 +11052,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -11079,7 +11081,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11107,7 +11109,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11135,7 +11137,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -11163,7 +11165,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -11191,7 +11193,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11219,7 +11221,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11247,7 +11249,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -11276,7 +11278,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -11304,7 +11306,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11332,7 +11334,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11359,8 +11361,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "North",
@@ -11388,8 +11390,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "South",
@@ -11418,7 +11420,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11446,7 +11448,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11475,7 +11477,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -11503,7 +11505,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -11531,7 +11533,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11559,7 +11561,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11587,7 +11589,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -11615,7 +11617,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -11644,7 +11646,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11673,7 +11675,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11727,7 +11729,7 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 179.0,
+      "length": 179,
       "width": 29.5,
       "area": 5284.8,
       "areaMetric": 490.97,
@@ -11759,7 +11761,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11787,7 +11789,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11816,7 +11818,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -11844,7 +11846,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -11872,7 +11874,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -11900,7 +11902,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -11928,7 +11930,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -11957,7 +11959,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -11985,7 +11987,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -12014,7 +12016,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -12042,7 +12044,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -12069,8 +12071,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "South",
@@ -12098,8 +12100,8 @@
     "dimensions": {
       "length": 39.4,
       "width": 39.4,
-      "area": 1550.0,
-      "areaMetric": 144.0,
+      "area": 1550,
+      "areaMetric": 144,
       "dimensionLabel": "12m x 12m"
     },
     "facing": "East",
@@ -12128,7 +12130,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -12156,7 +12158,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -12184,7 +12186,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -12213,7 +12215,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -12241,7 +12243,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -12269,7 +12271,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North",
@@ -12297,7 +12299,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "South",
@@ -12326,7 +12328,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "East",
@@ -12354,7 +12356,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "West",
@@ -12382,7 +12384,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-East",
@@ -12411,7 +12413,7 @@
       "length": 39.4,
       "width": 29.5,
       "area": 1162.5,
-      "areaMetric": 108.0,
+      "areaMetric": 108,
       "dimensionLabel": "9m x 12m"
     },
     "facing": "North-West",
@@ -12438,7 +12440,7 @@
     "dimensions": {
       "length": 67.9,
       "width": 29.5,
-      "area": 2006.0,
+      "area": 2006,
       "areaMetric": 186.36,
       "dimensionLabel": "Irregular"
     },
@@ -12496,7 +12498,7 @@
     "dimensions": {
       "length": 55.1,
       "width": 29.5,
-      "area": 1627.0,
+      "area": 1627,
       "areaMetric": 151.15,
       "dimensionLabel": "Irregular"
     },
@@ -12610,7 +12612,7 @@
     "dimensions": {
       "length": 39.4,
       "width": 29.5,
-      "area": 1835.0,
+      "area": 1835,
       "areaMetric": 170.48,
       "dimensionLabel": "9m x 12m"
     },
@@ -12863,7 +12865,7 @@
       "height": 2.8
     },
     "dimensions": {
-      "length": 68.0,
+      "length": 68,
       "width": 29.5,
       "area": 2007.9,
       "areaMetric": 186.54,
