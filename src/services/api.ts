@@ -15,16 +15,29 @@ export interface LoginResponse {
 }
 
 /**
- * Fetch all plots from backend API with fallback to static plots.json
+ * Fetch all plots from backend API with 1.5s timeout and fallback to static plots.json
  */
 export async function fetchPlots(surveyNo?: string): Promise<Plot[]> {
+  const fallback = localPlotsData as unknown as Plot[];
+  const filterFallback = (list: Plot[]) => {
+    if (surveyNo && surveyNo !== 'all') {
+      return list.filter(p => p.surveyNo === surveyNo);
+    }
+    return list;
+  };
+
   try {
     let url = `${API_BASE_URL}/plots`;
     if (surveyNo && surveyNo !== 'all') {
       url += `?surveyNo=${surveyNo}`;
     }
     
-    const response = await fetch(url);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 1500); // 1.5s fast timeout
+
+    const response = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+
     if (!response.ok) {
       throw new Error(`Server returned status ${response.status}`);
     }
@@ -33,15 +46,10 @@ export async function fetchPlots(surveyNo?: string): Promise<Plot[]> {
       return result.data as Plot[];
     }
   } catch (error) {
-    console.warn('API fetch failed or offline, using static plots fallback:', error);
+    // Graceful fallback to instant static data
   }
   
-  // Fallback to static plots.json
-  const plots = localPlotsData as unknown as Plot[];
-  if (surveyNo && surveyNo !== 'all') {
-    return plots.filter(p => p.surveyNo === surveyNo);
-  }
-  return plots;
+  return filterFallback(fallback);
 }
 
 /**

@@ -359,17 +359,25 @@ const PlotDetailModal: React.FC<PlotDetailModalProps> = ({
             {/* CTA */}
             <div className="space-y-3 pt-2">
               {plot.status === 'available' ? (
-                <>
-                  <button className="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-gray-900 font-bold py-3.5 rounded-xl transition-all duration-200 shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2">
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="grid sm:grid-cols-2 gap-3">
+                  <a
+                    href="tel:+919448210248"
+                    className="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-gray-950 font-bold py-3.5 px-4 rounded-xl transition-all duration-200 shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2 text-sm"
+                  >
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    Enquire Now
-                  </button>
-                  <button className="w-full bg-white/5 hover:bg-white/10 text-white font-semibold py-3 rounded-xl border border-white/10 hover:border-white/20 transition-all duration-200">
-                    Schedule a Site Visit
-                  </button>
-                </>
+                    Call 9448210248
+                  </a>
+                  <a
+                    href={`https://wa.me/919448210248?text=Hello%2C%20I%20am%20interested%20in%20Plot%20%23${number}%20(Survey%20No.%20${plot.surveyNo})%20in%20Shreemant%20Jagadevrao%20Deshmukh%20Layout.`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-4 rounded-xl transition-all duration-200 shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2 text-sm"
+                  >
+                    <span>💬 WhatsApp Enquiry</span>
+                  </a>
+                </div>
               ) : (
                 <button
                   disabled
